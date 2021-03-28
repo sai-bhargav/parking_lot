@@ -8,7 +8,7 @@
 ## Setup:
   Run the setup script to install ruby and bundler if its not available on your system.
   
-    ./script.sh
+    ./setup.sh
     
   If the file dosen't have permissions to run, give permissions by running `chmod +x setup.sh`
 
