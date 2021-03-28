@@ -1,18 +1,24 @@
-Parking Lot Design
+# Parking Lot Design
 
-Dependencies:
-  Ruby
-  Bundler
+## Dependencies:
+  - Ruby
+  - Bundler
+  - Rspec
 
-Setup:
-  run the setup script to install ruby and bundler if its not available on your system. 
-    `./script.sh`
+## Setup:
+  Run the setup script to install ruby and bundler if its not available on your system.
+  
+    ./script.sh
+    
+  If the file dosen't have permissions to run, give permissions by running `chmod +x setup.sh`
 
-Executing the code:
-  Run the code from terminal and passing file path as argument
-    `ruby main.rb <file_path>`
-    providing the file_path (without '<' '>') of the test file.
+## Executing the code:
+  Go into the parking_lot directory, run the following command passing file path of the test file as argument (without '<' '>').
+  
+    ruby main.rb <input_file_path>
 
-Tests:
+## Tests:
   Full test suite can be run using rspec using following command
-    `rspec tests/`
+  
+    rspec tests/
+
